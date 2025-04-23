@@ -67,9 +67,9 @@ Tired of slow and insecure file transfers? Say hello to **DFTS** – a robust sy
    ./serverD     # Deploy server
 
 5. **Run your client**
-   # Member login
+   **Member login:**
    ./client alice MyP@ssw0rd  
-   # Guest lookup
+   **Guest lookup**
    ./client guest guest  
 
 ---
