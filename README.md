@@ -71,6 +71,7 @@ Tired of slow and insecure file transfers? Say hello to **DFTS** – a robust sy
    Member login:
    ```bash
    ./client alice MyP@ssw0rd
+   ```
    
    Guest lookup
    ```bash
