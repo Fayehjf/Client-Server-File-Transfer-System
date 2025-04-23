@@ -76,23 +76,23 @@ Tired of slow and insecure file transfers? Say hello to **DFTS** – a robust sy
 
 ## 💬 Usage Examples
 
-# 1) Lookup your own repository as a member
+1 **Lookup your own repository as a member**
 > lookup alice
 index.html
 app.js
 
-# 2) Push a new file
+2 **Push a new file**
 > push report.pdf
 report.pdf uploaded successfully.
 
-# 3) Deploy all files
+3 **Deploy all files**
 > deploy
 Deployed alice’s repository:
   index.html
   app.js
   report.pdf
 
-# 4) View action history (extra credit)
+4 **View action history**
 > log
 1. login alice
 2. push report.pdf
