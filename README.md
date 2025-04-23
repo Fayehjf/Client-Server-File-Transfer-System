@@ -28,8 +28,9 @@ Tired of slow and insecure file transfers? Say hello to **DFTS** – a robust sy
   - `deploy`: batch-deploy all of a user’s files into `deployed.txt`  
 - **History Logging**  
   - `log`: persistent, time-ordered record of all member actions  
-- **Main Dispatcher (Server M)**  
+- **Main Dispatcher (Server M)**
   - Routes TCP client requests to the correct UDP backend server  
+  - Tracks and persists every member action in a time-ordered history for the `log` command  
   - Ensures reliable message flow and prints clear on-screen status updates
 
 ---
