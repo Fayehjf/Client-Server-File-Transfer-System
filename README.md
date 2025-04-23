@@ -7,7 +7,7 @@
 This is a lightweight, secure code-management system built with UNIX sockets in C/C++.  It mimics core GitHub workflows—authentication, push, lookup, remove, deploy, and history logging—across four cooperating processes to give you real-world experience writing TCP & UDP networked services.
 
 ---
-## 🚀 **Why This Project?**  
+## 🚀 Why This Project?
 Tired of slow and insecure file transfers? Say hello to **DFTS** – a robust system that:  
 - **Handles 50+ users concurrently** with TCP/UDP protocols.  
 - **Secures your data** like a digital fortress (100% unauthorized access blocked!).  
