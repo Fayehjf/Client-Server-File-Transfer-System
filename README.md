@@ -46,5 +46,71 @@ Tired of slow and insecure file transfers? Say hello to **DFTS** – a robust sy
 - **Server M** – Request routing & TCP/UDP bridging  
 - **Client**  – Member/Guest CLI interface  
 
+---
 
+## 🚀 Getting Started
+
+1. **Clone the repo**  
+   ```bash
+   git clone https://github.com/Fayehjf/Client-Server-File-Transfer-System.git
+   cd git450
+
+2. **Build everything**
+   ```bash
+   make all
+
+4. **Start services in order**
+   ```bash
+   ./serverM     # Main dispatcher
+   ./serverA     # Auth server
+   ./serverR     # Repo server
+   ./serverD     # Deploy server
+
+5. **Run your client**
+   # Member login
+   ./client alice MyP@ssw0rd  
+   # Guest lookup
+   ./client guest guest  
+
+---
+
+## 💬 Usage Examples
+
+# 1) Lookup your own repository as a member
+> lookup alice
+index.html
+app.js
+
+# 2) Push a new file
+> push report.pdf
+report.pdf uploaded successfully.
+
+# 3) Deploy all files
+> deploy
+Deployed alice’s repository:
+  index.html
+  app.js
+  report.pdf
+
+# 4) View action history (extra credit)
+> log
+1. login alice
+2. push report.pdf
+3. deploy
+
+---
+
+## 📖 Encryption Scheme
+
+Passwords use a **Caesar cipher with shift 3** before storage:
+
+- **Letters** wrap A→D … X→A (case-sensitive)  
+- **Digits** wrap 0→3 … 7→0  
+- **Special characters** remain unchanged  
+
+| Original           | Encrypted         |
+|--------------------|-------------------|
+| Welcome to EE450!  | Zhofrph wr HH783! |
+| 199xyz@$           | 422abc@$          |
+| 0.27#&             | 3.50#&            |
 
